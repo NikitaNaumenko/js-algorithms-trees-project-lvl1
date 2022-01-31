@@ -1,0 +1,36 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/NikitaNaumenko/js-algorithms-trees-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/NikitaNaumenko/js-algorithms-trees-project-lvl1/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaNaumenko/js-algorithms-trees-project-lvl1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaNaumenko/js-algorithms-trees-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/NikitaNaumenko/js-algorithms-trees-project-lvl1#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
+  "dependencies": {
+    "debug": "^4.3.3",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.0.0",
+    "jest": "^27.4.7",
+    "lodash": "^4.17.21",
+    "simple-git-hooks": "^2.7.0"
+  }
+}
